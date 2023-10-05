@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Calculator Design">
+        <meta name="author" content="Rajat Gupta">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.1/math.js" integrity="sha512-PSHSbngD/Hc1zYbMeM4xUMRt+gD8x7xYdZaDqRE8iy1oDu94O2Mqi2WqYe8QWji50+4EFBbp/Opwc+Nl+ruaqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.1/math.min.js" integrity="sha512-jgMqxLG97m1BO3cRIW5ESD++rF8uJ6Fbufba2xKb102eTX8UPCWhrKua+uKSNidBFFLKXKAByX2HmQUMQZBSUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <!-- Creation Of Calculator using Table -->
+        <div id="calculator-body">
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <input type="text" id="result">
+                    </td>
+                    <td><input type="button" value="C" id="C" class="clr"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" id="1" class="btn"></td>
+                    <td><input type="button" value="2" id="2" class="btn"></td>
+                    <td><input type="button" value="3" id="3" class="btn"></td>
+                    <td><input type="button" value="&divide;" id="/" class="btn"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" id="4" class="btn"></td>
+                    <td><input type="button" value="5" id="5" class="btn"></td>
+                    <td><input type="button" value="6" id="6" class="btn"></td>
+                    <td><input type="button" value="&times;" id="*" class="btn"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" id="7" class="btn"></td>
+                    <td><input type="button" value="8" id="8" class="btn"></td>
+                    <td><input type="button" value="9" id="9" class="btn"></td>
+                    <td><input type="button" value="-" id="-" class="btn"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0" id="0" class="btn"></td>
+                    <td><input type="button" value="." id="." class="btn"></td>
+                    <td><input type="button" value="=" id="=" class="solve"></td>
+                    <td><input type="button" value="+" id="+" class="btn"></td>
+                </tr>
+            </table>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
